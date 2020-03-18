@@ -25,6 +25,7 @@ sed -i '$a\chdbits.co\n\www.cnscg.club\n\pt.btschool.club\n\et8.org\n\www.nicept
 sed -i '$a\docker.com\n\docker.io' feeds/lienol/lienol/luci-app-passwall/root/usr/share/passwall/rules/blacklist_host
 git clone https://github.com/destan19/OpenAppFilter diy/OpenAppFilter
 git clone https://github.com/tty228/luci-app-serverchan diy/luci-app-serverchan
+git clone https://github.com/awesome-openwrt/luci-app-ssr-plus
 git clone https://github.com/project-openwrt/luci-app-koolproxyR diy/luci-app-koolproxyR
 rm -rf diy/luci-app-serverchan/root/etc/config/serverchan
 cp -f diy/hong0980/serverchan diy/luci-app-serverchan/root/etc/config/

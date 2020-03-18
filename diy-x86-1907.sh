@@ -28,6 +28,7 @@ sed -i '$a\chdbits.co\n\www.cnscg.club\n\pt.btschool.club\n\et8.org\n\www.nicept
 sed -i '$a\docker.com\n\docker.io' feeds/lienol/lienol/luci-app-passwall/root/usr/share/passwall/rules/blacklist_host
 sed -i '8,32d' diy/ipk/luci-app-advanced-settings/luasrc/model/cbi/advanced.lua 
 git clone https://github.com/frainzy1477/luci-app-clash diy/luci-app-clash
+git clone https://github.com/awesome-openwrt/luci-app-ssr-plus
 git clone https://github.com/rufengsuixing/luci-app-adguardhome diy/luci-app-adguardhome
 git clone https://github.com/destan19/OpenAppFilter diy/OpenAppFilter
 git clone https://github.com/ElonH/Rclone-OpenWrt diy/Rclone-OpenWrt
