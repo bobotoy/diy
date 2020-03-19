@@ -38,7 +38,7 @@ rm -rf diy/luci-app-serverchan/root/etc/config/serverchan
 cp -f diy/hong0980/serverchan diy/luci-app-serverchan/root/etc/config/
 sed -i 's/OpenWrt By tty228 路由状态/OpenWrt路由状态/g' diy/luci-app-serverchan/luasrc/model/cbi/serverchan.lua
 ln -s ../diy package/diy-packages
-#sed -i 's/default n/default y/g' feeds/packages/utils/docker-ce/Config.in
+sed -i 's/default n/default y/g' feeds/packages/utils/docker-ce/Config.in
 #sed -i '111,112d' feeds/packages/utils/docker-ce/Makefile
 cp -f diy/hong0980/mount.lua feeds/luci/modules/luci-mod-admin-full/luasrc/model/cbi/admin_system/fstab/
 cp -f diy/hong0980/zzz-default-settings package/default-settings/files/
@@ -50,9 +50,9 @@ rm -rf diy/ipk/qbittorrent #4.1.9
 sed -i '33,36d' $(pwd)/diy/ipk/luci-app-qbittorrent/luasrc/model/cbi/qbittorrent.lua
 
 echo '删除重复包'
-#rm -rf diy/hong0980/autocore
+rm -rf diy/hong0980/autocore
 rm -rf diy/hong0980/docker-ce
-rm -rf feeds/packages/utils/docker-ce
+#rm -rf feeds/packages/utils/docker-ce
 rm -rf package/lean/qt5
 rm -rf package/lean/qBittorrent
 rm -rf package/lean/luci-app-dockerman
