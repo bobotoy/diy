@@ -50,8 +50,8 @@ rm -rf diy/ipk/qbittorrent #4.1.9
 sed -i '33,36d' $(pwd)/diy/ipk/luci-app-qbittorrent/luasrc/model/cbi/qbittorrent.lua
 
 echo '删除重复包'
-rm -rf diy/hong0980/autocore
-#rm -rf diy/hong0980/docker-ce
+#rm -rf diy/hong0980/autocore
+rm -rf diy/hong0980/docker-ce
 rm -rf feeds/packages/utils/docker-ce
 rm -rf package/lean/qt5
 rm -rf package/lean/qBittorrent
