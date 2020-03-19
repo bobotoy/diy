@@ -51,18 +51,19 @@ cp -f diy/hong0980/zzz-default-settings package/lean/default-settings/files/
 
 echo '删除重复包'
 rm -rf diy/hong0980/qbittorrent
-rm -rf diy/Lienol/package/v2ray
-rm -rf diy/Lienol/package/trojan
-rm -rf diy/Lienol/package/ipt2socks
-rm -rf diy/Lienol/package/shadowsocksr-libev
-rm -rf diy/Lienol/package/pdnsd-alt
-rm -rf diy/Lienol/package/verysync
-rm -rf diy/Lienol/package/kcptun
-rm -rf diy/Lienol/lienol/luci-app-kodexplorer
-rm -rf diy/Lienol/lienol/luci-app-pppoe-relay
-rm -rf diy/Lienol/others/luci-app-verysync
-rm -rf diy/Lienol/lienol/luci-app-pptp-server
-rm -rf diy/Lienol/lienol/luci-app-v2ray-server
-rm -rf diy/Lienol/lienol/luci-app-guest-wifi
+rm -rf package/lean/dns2socks
+rm -rf package/lean/ipt2socks
+rm -rf package/lean/kcptun
+rm -rf package/lean/pdnsd-alt
+rm -rf package/lean/shadowsocksr-libev
+rm -rf package/lean/trojan
+rm -rf package/lean/v2ray
+rm -rf package/lean/verysync
+rm -rf package/lean/luci-app-kodexplorer
+rm -rf package/lean/luci-app-pppoe-relay
+rm -rf package/lean/luci-app-verysync
+rm -rf package/lean/luci-app-pptp-server
+rm -rf package/lean/luci-app-v2ray-server
+rm -rf package/lean/luci-app-guest-wifi
 echo '当前路径'
 pwd
