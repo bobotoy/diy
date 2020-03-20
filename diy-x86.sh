@@ -50,8 +50,8 @@ sed -i '33,36d' $(pwd)/diy/ipk/luci-app-qbittorrent/luasrc/model/cbi/qbittorrent
 
 echo '删除重复包'
 rm -rf package/lean/autocore
-rm -rf feeds/packages/utils/docker-ce
-#rm -rf diy/hong0980/docker-ce
+#rm -rf feeds/packages/utils/docker-ce
+rm -rf diy/hong0980/docker-ce
 rm -rf diy/hong0980/luci-app-ttyde
 rm -rf diy/hong0980/ttyd
 rm -rf package/lean/qt5
