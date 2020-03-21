@@ -23,6 +23,7 @@ CONFIG_PACKAGE_luci-app-advanced-settings=y
 CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_luci-app-cpulimit=y
 CONFIG_PACKAGE_luci-app-diskman=y
+CONFIG_PACKAGE_mdadm=y
 CONFIG_PACKAGE_luci-app-dockerman=y
 CONFIG_PACKAGE_luci-app-adguardhome=y
 CONFIG_PACKAGE_luci-app-filetransfer=y
@@ -74,7 +75,7 @@ CONFIG_PACKAGE_luci-app-n2n_v2=y
 CONFIG_PACKAGE_luci-app-wol=y
 CONFIG_PACKAGE_luci-app-zerotier=y
 # CONFIG_PACKAGE_luci-app-fileassistant is not set
-# CONFIG_PACKAGE_luci-theme-bootstrap-mod is not set
+## CONFIG_PACKAGE_luci-theme-bootstrap-mod is not set
 CONFIG_PACKAGE_webui-aria2=y
 CONFIG_PACKAGE_docker-ce=y
 CONFIG_DOCKER_KERNEL_OPTIONS=y
